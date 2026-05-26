@@ -1,4 +1,4 @@
-*# 👋 Hi, I'm Aprajita Yadav
+👋 Hi, I'm Aprajita Yadav
 
 🎓 B.Tech CSE (4th Year) @ VIT Bhopal  
 🔭 Building hand sign recognition systems  
@@ -8,12 +8,9 @@
 📩: aprajitayadav2901@gmail.com
 
 
-
-
 🛠️ Tech Stack
 
 Python | OpenCV | MediaPipe | Git | Jupyter
-
 
 
  📌 Projects
