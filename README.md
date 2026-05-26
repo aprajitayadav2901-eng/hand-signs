@@ -1,7 +1,7 @@
 👋 Hi, I'm Aprajita Yadav
 
 🎓 B.Tech CSE (4th Year) @ VIT Bhopal  
-🔭 Building hand sign recognition systems  
+🔭 Building hand gestures recognition systems  
 🧠 Learning Computer Vision & Deep Learning  
 📫 Connect: www.linkedin.com/in/aprajitay
 
@@ -15,7 +15,7 @@ Python | OpenCV | MediaPipe | Git | Jupyter
 
  📌 Projects
 
-✋ **Hand Sign Recognition** – Real-time gesture detection  
+✋ **Hand Gestures Recognition** – Real-time gesture detection like thumbs up,thumbs down,victory,open palm,closed fist
 📹 [View Demo] : https://github.com/aprajitayadav2901-eng/hand-signs/raw/refs/heads/main/demo%20video%20hand%20gesture.mp4
 
 important instructions 
