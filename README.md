@@ -1,38 +1,72 @@
-👋 Hi, I'm Aprajita Yadav
+# ✋ Hand Gesture Recognition System
 
-🎓 B.Tech CSE (4th Year) @ VIT Bhopal  
-🔭 Building hand gestures recognition systems  
-🧠 Learning Computer Vision & Deep Learning  
-📫 Connect: www.linkedin.com/in/aprajitay
+## 👋 About the Project
 
-📩: aprajitayadav2901@gmail.com
+Hi, I'm **Aprajita Yadav**
 
+🎓 B.Tech CSE (4th Year) @ VIT Bhopal
+🔭 Passionate about Computer Vision & AI
+🧠 Currently learning Deep Learning and real-time vision systems
 
-🛠️ Tech Stack
+This project is a **real-time Hand Gesture Recognition System** built using **Python, OpenCV, and MediaPipe**.
+It can detect and recognize multiple hand gestures directly from webcam input.
 
-Python | OpenCV | MediaPipe | Git | Jupyter
+---
 
+## 🛠️ Tech Stack
 
- 📌 Projects
+* Python
+* OpenCV
+* MediaPipe
+* NumPy
+* Git
+* Jupyter Notebook
 
-✋ **Hand Gestures Recognition** – Real-time gesture detection like thumbs up,thumbs down,victory,open palm,closed fist
-📹 [View Demo] : https://github.com/aprajitayadav2901-eng/hand-signs/raw/refs/heads/main/demo%20video%20hand%20gesture.mp4
+---
 
-important instructions 
+## 📌 Features
 
-Install requirements
+✅ Real-time hand tracking
+✅ Gesture recognition using webcam
+✅ Multiple gesture detection including:
 
-run this :
-pip install -r requirementx.txt
+* 👍 Thumbs Up
+* 👎 Thumbs Down
+* ✌️ Victory Sign
+* ✋ Open Palm
+* ✊ Closed Fist
 
-(you need to install this in your project terminal only)
+---
 
+## 📹 Demo Video
 
+[▶️ View Demo](https://github.com/aprajitayadav2901-eng/hand-signs/raw/refs/heads/main/demo%20video%20hand%20gesture.mp4)
 
-Run the project :
+---
+
+## ⚙️ Installation
+
+Open terminal inside the project folder and run:
+
+```bash
+pip install -r requirements.txt
+```
+
+> Make sure you run this command inside the project directory.
+
+---
+
+## ▶️ Run the Project
+
+```bash
 python main.py
+```
 
-(here main means your file name in your vs code or any other compiler)
+> Replace `main.py` with your actual Python file name if different.
 
+---
 
+## 📫 Connect With Me
 
+* LinkedIn: [www.linkedin.com/in/aprajitay](http://www.linkedin.com/in/aprajitay)
+* Email: [aprajitayadav2901@gmail.com](mailto:aprajitayadav2901@gmail.com)
