@@ -1,72 +1,122 @@
-# ✋ Hand Gesture Recognition System
+# 🤟 Hand Gesture Recognition
 
-## 👋 About the Project
+A real-time **Hand Gesture Recognition** project built using **Python, OpenCV, and MediaPipe**. The system detects a user's hand through a webcam, identifies hand landmarks, and recognizes gestures based on finger positions.
 
-Hi, I'm **Aprajita Yadav**
+## 🎥 Project Overview
 
-🎓 B.Tech CSE (4th Year) @ VIT Bhopal
-🔭 Passionate about Computer Vision & AI
-🧠 Currently learning Deep Learning and real-time vision systems
+This project uses computer vision to detect and track hand movements in real time. MediaPipe detects the hand landmarks, while OpenCV handles webcam input and visual processing.
 
-This project is a **real-time Hand Gesture Recognition System** built using **Python, OpenCV, and MediaPipe**.
-It can detect and recognize multiple hand gestures directly from webcam input.
+### ✨ Features
 
----
+* 🤚 Real-time hand detection
+* 📍 21-point hand landmark detection
+* 👆 Finger tracking
+* 🤟 Gesture recognition
+* 📷 Webcam-based interaction
+* ⚡ Real-time computer vision processing
 
 ## 🛠️ Tech Stack
 
-* Python
-* OpenCV
-* MediaPipe
-* NumPy
-* Git
-* Jupyter Notebook
+| Technology    | Purpose                              |
+| ------------- | ------------------------------------ |
+| **Python**    | Core programming                     |
+| **OpenCV**    | Webcam and image processing          |
+| **MediaPipe** | Hand detection and landmark tracking |
+| **NumPy**     | Numerical operations                 |
 
----
+## 🔄 How It Works
 
-## 📌 Features
-
-✅ Real-time hand tracking
-✅ Gesture recognition using webcam
-✅ Multiple gesture detection including:
-
-* 👍 Thumbs Up
-* 👎 Thumbs Down
-* ✌️ Victory Sign
-* ✋ Open Palm
-* ✊ Closed Fist
-
----
-
-## 📹 Demo Video
-
-[▶️ View Demo](https://github.com/aprajitayadav2901-eng/hand-signs/raw/refs/heads/main/demo%20video%20hand%20gesture.mp4)
-
----
-
-## ⚙️ Installation
-
-Open terminal inside the project folder and run:
-
-```bash
-pip install -r requirements.txt
+```text
+Webcam Input
+     ↓
+Capture Video Frame
+     ↓
+OpenCV Image Processing
+     ↓
+MediaPipe Hand Detection
+     ↓
+Hand Landmark Detection
+     ↓
+Finger Position Analysis
+     ↓
+Gesture Recognition
+     ↓
+Display Detected Gesture
 ```
 
-> Make sure you run this command inside the project directory.
+## 📦 Installation
 
----
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+cd Hand-Gesture-Recognition
+```
+
+Install the required libraries:
+
+```bash
+pip install opencv-python mediapipe numpy
+```
 
 ## ▶️ Run the Project
 
 ```bash
-python main.py
+python hand_gesture.py
 ```
 
-> Replace `main.py` with your actual Python file name if different.
+Allow camera access when prompted. Show your hand in front of the webcam to detect the gesture.
 
----
+## 🖐️ Gesture Recognition
 
-## 📫 Connect With Me
+The system can be extended to recognize gestures such as:
+
+* ✋ Open Palm
+* ✊ Fist
+* 👍 Thumbs Up
+* ✌️ Victory
+* ☝️ One Finger
+* 🤟 Custom Gestures
+
+## 📂 Project Structure
+
+```text
+Hand-Gesture-Recognition/
+│
+├── hand_gesture.py
+├── requirements.txt
+└── README.md
+```
+
+## 🚀 Future Enhancements
+
+* Add more custom gestures
+* Gesture-controlled applications
+* Volume control using hand gestures
+* Mouse control using hand movements
+* Presentation/slide control
+* Sign-language recognition
+* Integration with AI-based applications
+
+## 🎓 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* Python
+* OpenCV
+* MediaPipe
+* Computer Vision
+* Hand Landmark Detection
+* Real-time Video Processing
+* Gesture Recognition
+
+## 👩‍💻 Author
+
+### Aprajita Yadav
+
+**B.Tech Computer Science & Engineering**
+
+
 
 * LinkedIn: [www.linkedin.com/in/aprajitay](http://www.linkedin.com/in/aprajitay)
 * Email: [aprajitayadav2901@gmail.com](mailto:aprajitayadav2901@gmail.com)
